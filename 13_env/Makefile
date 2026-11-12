@@ -12,5 +12,3 @@ push: container
 
 clean:
 	docker rmi -f $(PREFIX):$(TAG) || true
-
-# crpi-8kvyt6flnal17nk5.cn-beijing.personal.cr.aliyuncs.com/liveno/ubuntu:latest

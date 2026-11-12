@@ -21,6 +21,7 @@ RUN rm -rf /var/lib/apt/lists/*
 
 WORKDIR /share
 ADD run-server.sh    /share/run-server.sh
+CMD chmod a+x        /share/run-server.sh
 CMD ["/share/run-server.sh"]
 
 # notes: 该镜像是公开镜像-不得存放任何敏感信息

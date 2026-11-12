@@ -18,3 +18,4 @@ ENV PATH=${JAVA_HOME}/bin:${PATH}
 
 
 # notes: 该镜像是公开镜像-不得存放任何敏感信息
+# crpi-8kvyt6flnal17nk5.cn-beijing.personal.cr.aliyuncs.com/liveno/ubuntu:jammy-env
