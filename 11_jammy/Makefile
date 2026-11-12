@@ -1,6 +1,6 @@
 all: push
 
-TAG = latest
+TAG = jammy-20261110
 PREFIX = crpi-8kvyt6flnal17nk5.cn-beijing.personal.cr.aliyuncs.com
 IMAGE_NAME = liveno/ubuntu
 
