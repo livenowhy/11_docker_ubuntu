@@ -6,3 +6,5 @@ FROM ubuntu:jammy-20261110
 
 # 2. 现在采用最新的 ubuntu:jammy-20261110 镜像
 # notes: 该镜像是公开镜像-不得存放任何敏感信息
+
+# crpi-8kvyt6flnal17nk5.cn-beijing.personal.cr.aliyuncs.com/liveno/ubuntu:jammy
