@@ -7,11 +7,18 @@ ENV DEBIAN_FRONTEND=noninteractive \
 
 RUN apt-get update && \
     apt-get install -y --no-install-recommends \
+        libgcc-s1 \
+        libstdc++6 \
+        libc6 \
+        libc6-dev \ 
+        ripgrep \ 
         python3-full python3-venv python3-pip python3-dev \
         openjdk-8-jdk-headless \
         ca-certificates-java \
+        cron \
         tzdata && \
     rm -rf /var/lib/apt/lists/*
+
 
 ENV JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64
 ENV PATH=${JAVA_HOME}/bin:${PATH}
